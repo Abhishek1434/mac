@@ -1,0 +1,9 @@
+docker build -t Docker-webapp
+
+docker images
+
+docker run -p 8000:80 Docker-webapp
+
+* Issue: Cannot run program -nohup
+
+    https://stackoverflow.com/questions/45140614/jenkins-pipeline-sh-fail-with-cannot-run-program-nohup-on-windows
