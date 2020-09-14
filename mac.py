@@ -2,7 +2,7 @@ import requests
 import re
 import sys
 
-mac = raw_input("Enter one or more your MAC address with Spaces: ")
+windows = raw_input("Enter one or more your MAC address with Spaces: ")
 mac_address = mac.split(" ")
 
 def getVendorName(x):
