@@ -4,4 +4,4 @@ ADD mac.py /
 
 RUN pip install pystrich
 
-CMD [ "python", "./mac.py" ]
+CMD [ "java", "./mac.py" ]
